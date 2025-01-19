@@ -1,0 +1,37 @@
+.bg-dark-blue {
+  background-color: #1c42c0; /* Dark blue background */
+}
+
+.nav-link {
+  font-size: 1.1rem; /* Slightly larger font for readability */
+  font-weight: 500; /* Semi-bold links */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+  color: #ffcc00; /* Gold color on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.nav-link:focus {
+  outline: none; /* Remove outline when focused */
+}
+
+.hover-effect {
+  position: relative;
+}
+
+.hover-effect::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffcc00; /* Gold underline effect */
+  transition: width 0.3s ease-in-out;
+}
+
+.hover-effect:hover::after {
+  width: 100%;
+}
