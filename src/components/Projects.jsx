@@ -19,10 +19,10 @@ function Projects() {
         link: "https://github.com/AbrehamAmesa/Laravel-Task-Management",
       },
       {
-        title: "Web Project 3",
-        description: "Description of a third web project.",
+        title: "Portfolio",
+        description: "Portfolio By React",
         image: "images/coming.png",
-        link: "https://github.com/your-profile/web-project-3",
+        link: "https://github.com/AbrehamAmesa/Portfolio",
       },
     ],
     Mobile: [
